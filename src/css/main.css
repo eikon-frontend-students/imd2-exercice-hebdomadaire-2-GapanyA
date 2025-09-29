@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #e9e9e9;
+  font-family: "inter";
 }
 
 a {
@@ -11,4 +13,42 @@ a {
 img,
 video {
   display: block;
+}
+header {
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.outils {
+  padding: 20px 30px;
+  display: flex;
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 32px;
+}
+.utilites {
+  display: flex;
+  flex-direction: row;
+}
+.autre {
+  background-color: #fff;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+}
+.contact {
+  padding: 20px;
+  background-image: url(/src/img/icon-envelope.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #fff;
+  font-weight: 700;
 }
